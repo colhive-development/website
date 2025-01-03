@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/mode-toggle";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,6 +23,8 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+
+        <ModeToggle />
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
@@ -99,3 +102,4 @@ export default function Home() {
     </div>
   );
 }
+
